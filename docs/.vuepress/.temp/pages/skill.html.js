@@ -1,16 +1,3 @@
 import comp from "C:/Users/Aso/Desktop/New folder/docs/.vuepress/.temp/pages/skill.html.vue"
-const data = JSON.parse("{\"path\":\"/skill.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Technical Skills\",\"slug\":\"technical-skills\",\"link\":\"#technical-skills\",\"children\":[]},{\"level\":2,\"title\":\"Networking Skills\",\"slug\":\"networking-skills\",\"link\":\"#networking-skills\",\"children\":[]},{\"level\":2,\"title\":\"Soft Skills\",\"slug\":\"soft-skills\",\"link\":\"#soft-skills\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"skill.md\"}")
+const data = JSON.parse("{\"path\":\"/skill.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Technical Skills\",\"slug\":\"technical-skills\",\"link\":\"#technical-skills\",\"children\":[]},{\"level\":2,\"title\":\"Networking Skills\",\"slug\":\"networking-skills\",\"link\":\"#networking-skills\",\"children\":[]},{\"level\":2,\"title\":\"Soft Skills\",\"slug\":\"soft-skills\",\"link\":\"#soft-skills\",\"children\":[]}],\"git\":{\"contributors\":[{\"name\":\"Aso-Yasin\",\"username\":\"Aso-Yasin\",\"email\":\"nt71203@gmail.com\",\"commits\":1,\"url\":\"https://github.com/Aso-Yasin\"}],\"changelog\":[{\"hash\":\"88b894acd5c84b0127b97c864311ce1b5f165965\",\"time\":1759127601000,\"email\":\"nt71203@gmail.com\",\"author\":\"Aso-Yasin\",\"message\":\".\"}]},\"filePathRelative\":\"skill.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

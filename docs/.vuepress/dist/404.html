@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>new folder</title><meta name="description" content="My first VuePress Site">
+    <link rel="preload" href="/project/assets/style-B3-VMakp.css" as="style"><link rel="stylesheet" href="/project/assets/style-B3-VMakp.css">
+    <link rel="modulepreload" href="/project/assets/app-CA4PMoFQ.js"><link rel="modulepreload" href="/project/assets/404.html-BOMHEBLN.js">
+    <link rel="prefetch" href="/project/assets/project.html-DStg9F23.js" as="script"><link rel="prefetch" href="/project/assets/index.html-DRJcihSc.js" as="script"><link rel="prefetch" href="/project/assets/skill.html-CNnXY6nv.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-ec9917b8><main class="page" data-v-ec9917b8><div vp-content data-v-ec9917b8><h1 data-v-ec9917b8>404</h1><blockquote data-v-ec9917b8>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/project/" data-v-ec9917b8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/project/assets/app-CA4PMoFQ.js" defer></script>
+  </body>
+</html>
